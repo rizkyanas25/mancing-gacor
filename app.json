@@ -8,7 +8,12 @@
     "scheme": "mancinggacor",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.anonymous.mancing-gacor",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "MancingGacor memerlukan akses lokasi untuk mendeteksi spot pancing terdekat dari Anda.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "MancingGacor memerlukan akses lokasi untuk mendeteksi spot pancing terdekat dari Anda."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -33,6 +38,18 @@
             "image": "./assets/images/splash-icon.png",
             "imageWidth": 76
           }
+        }
+      ],
+      [
+        "react-native-maps",
+        {
+          "iosGoogleMapsApiKey": "AIzaSyBYRsizX-ZOABLKKgc8Plmf2bdwyZ1azqw"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUseDescription": "MancingGacor memerlukan akses lokasi untuk mendeteksi spot pancing terdekat dari Anda."
         }
       ]
     ],
