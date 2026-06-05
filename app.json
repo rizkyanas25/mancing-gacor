@@ -41,12 +41,6 @@
         }
       ],
       [
-        "react-native-maps",
-        {
-          "iosGoogleMapsApiKey": "AIzaSyBYRsizX-ZOABLKKgc8Plmf2bdwyZ1azqw"
-        }
-      ],
-      [
         "expo-location",
         {
           "locationWhenInUseDescription": "MancingGacor memerlukan akses lokasi untuk mendeteksi spot pancing terdekat dari Anda."
