@@ -1,5 +1,5 @@
 import * as Device from 'expo-device';
-import { Platform, StyleSheet } from 'react-native';
+import { Platform, StyleSheet, View, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { AnimatedIcon } from '@/components/animated-icon';
@@ -37,6 +37,13 @@ export default function HomeScreen() {
           <ThemedText type="title" style={styles.title}>
             Welcome to&nbsp;Expo
           </ThemedText>
+          
+          {/* Test NativeWind v4 & Custom Spacing & Custom primary Color */}
+          <View className="bg-primary p-container-margin rounded-xl items-center mt-base">
+            <Text className="text-on-primary-container font-bold">
+              NativeWind v4 + Gacor Theme OK!
+            </Text>
+          </View>
         </ThemedView>
 
         <ThemedText type="code" style={styles.code}>
